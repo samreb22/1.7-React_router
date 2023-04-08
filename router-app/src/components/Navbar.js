@@ -21,7 +21,7 @@ export default function Navbar() {
           </NavLink>
         </li>
         <li>
-          <NavLink exact to="/categories" activeClassName="active">
+          <NavLink to="/categories" activeClassName="active">
             Categories
           </NavLink>
         </li>

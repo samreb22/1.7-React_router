@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 
 export default function ProfilePage() {
-  // Hago la descomposición de lo que reciubo con parámetros con username
+  // Hago la destructuración de lo que reciubo con parámetros con username
   const { username } = useParams();
 
   return (
